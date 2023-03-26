@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 107, 48);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: #fff;
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 590px;
+}
+h1 {
+    color: #364547;
+    margin-left: 72px;
+    margin-bottom: 0.5em;
+    font-family: arial;
+}
+.container .box {
+    width: 100%;
+    display: flex;
+}
+.box div {
+    width: 100%;
+}
+select {
+    width: 95%;
+    height: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: #66ffcc;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}
+.category {
+    width: 98%;
+    height: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background: #364547;
+    outline: none;
+    color: rgb(255, 255, 255);
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}
+input {
+    width: 95%;
+    height: 50px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background: #cccccc;
+    outline: none;
+    padding: 0 1em;
+    margin-bottom: 30px;
+}
+.labels {
+    margin-left: 10px;
+    color: blue;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: 600;    
+}
+button {
+    width: 90%;
+    height: 50px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background: #f20808;
+    color: #fff;
+    outline: none;
+    padding: 0 1em;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

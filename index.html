@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY CONVERTER</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SIMPLE CONVERTER</h1>
+        <div class="box">
+            <div class="left-box">
+                <label for="input1" id="label1" class="labels">Unit 1</label>             
+                <input type="number"  id="input1" placeholder="Unit 1" onkeyup="run1()" onclick="test()">   
+            </div>
+
+            <div class="right-box">
+                <label for="input1" id="label2" class="labels">Label 2</label>
+                <input type="number" id="input2" placeholder="Unit 2" onkeyup="run2()" onclick="test()">
+            </div>
+        </div>
+
+        
+        <select  class="converter category" id="category" onchange="overall()">
+            <option value="0">Choose Category</option>
+            <option value="mass">Mass</option>
+            <option value="length">Length</option>
+            <option value="volume">Volume</option>
+        </select>
+
+        <button onclick="resetInput()">Reset</button>
+          
+    </div>
+
+    
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
